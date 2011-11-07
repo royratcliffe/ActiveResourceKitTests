@@ -46,9 +46,5 @@ test:
   database: <%= ENV['USER'] %>_<%= (Rails.application.class.name.sub(/::Application$/, "") || File.basename(Rails.root)).downcase %>_test
 
 production:
-  adapter: postgresql
-  encoding: unicode
-  database: ActiveResourceKitTests_production
-  pool: 5
-  username: ActiveResourceKitTests
-  password:
+  <<: *postgresql
+  database: <%= ENV['USER'] %>_<%= (Rails.application.class.name.sub(/::Application$/, "") || File.basename(Rails.root)).downcase %>_production
