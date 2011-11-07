@@ -4,5 +4,5 @@ task :cron => :environment do
   # fixture content. Active resource tests presume that the fixture are in
   # place; otherwise tests will fail incorrectly, or in other words, fail for
   # the wrong reason.
-  Rake::Task['db:fixures:load'].invoke
+  Rake::Task['db:fixtures:load'].invoke
 end
