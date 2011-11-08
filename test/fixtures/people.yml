@@ -4,5 +4,6 @@ matz:
   id: 1
   name: Matz
 
-two:
-  name: MyString
+david:
+  id: 2
+  name: David
