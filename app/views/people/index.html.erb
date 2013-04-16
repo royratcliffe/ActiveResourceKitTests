@@ -2,7 +2,8 @@
 
 <table>
   <tr>
-    <th>Name</th>
+    <th>First</th>
+    <th>Last</th>
     <th></th>
     <th></th>
     <th></th>
@@ -10,7 +11,8 @@
 
 <% @people.each do |person| %>
   <tr>
-    <td><%= person.name %></td>
+    <td><%= person.first %></td>
+    <td><%= person.last %></td>
     <td><%= link_to 'Show', person %></td>
     <td><%= link_to 'Edit', edit_person_path(person) %></td>
     <td><%= link_to 'Destroy', person, confirm: 'Are you sure?', method: :delete %></td>

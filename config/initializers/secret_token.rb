@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-ActiveResourceKitTests::Application.config.secret_token = 'b7ea9bbbf3e9cf3cb676e2351f128bbb20083fcecd3a8d1214e11b2c530eb6a1a6dcfd4c5784f3ac22dbf951f54f0c92540b428b3cccf1f61057325cf8ce3a23'
+ActiveResourceKitTests::Application.config.secret_token = 'dd95f3640a47092ba5a0666c22e2dfeb71bfb2c246f63485ff5dc4890e5ac9cbc9a7236515953011ad32d79be5e8c30cecf30be01834a0b96c0ab856c8c28209'

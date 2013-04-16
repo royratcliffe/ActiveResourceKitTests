@@ -1,4 +1,4 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
 
 matz:
   id: 1
@@ -7,3 +7,7 @@ matz:
 david:
   id: 2
   name: David
+
+joe:
+  id: 6
+  name: Joe
